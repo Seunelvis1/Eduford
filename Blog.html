@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/b29fce6b9e.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <section class="sub-header-blog">
+
+    <nav>
+        <a href="index.html"><img src="eduford_img/logo.png" /></a>
+    <div class="nav-links" id="navLinks">
+      <i class="fa fa-times" onClick="hideMenu()"></i>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="About.html">ABOUT</a></li>
+            <li><a href="Course.html">COURSE</a></li>
+            <li><a href="Blog.html" target="_blank">BLOG</a></li>
+            <li><a href="Contact.html">CONTACT</a></li>
+
+        </ul>
+
+    </div>
+    <i class="fa fa-bars " onclick="showMenu()"></i>
+
+    </nav>
+
+        <h1>Our Certificate & Online Programs For 2021</h1>
+
+
+    </section>
+
+    <!-- ___________________blog section_________________ -->
+
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-col-left">
+            <img src="eduford_img/certificate.jpg" alt="">
+            <h2>Our Certificate and Online Programs For 2021</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia laborum saepe eos fugiat ut soluta fuga autem quibusdam. At exercitationem est eos inventore eum animi mollitia eligendi omnis cupiditate tempore!</p>
+            <br>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus earum minima veniam, vero rem rerum atque saepe repellat repellendus consequuntur ipsam, placeat odit? Cum eum non enim consequuntur voluptates. Impedit assumenda, magni consequatur vel fuga praesentium vero ea necessitatibus est laudantium laborum corporis iste veniam earum, unde sequi? Veniam delectus excepturi consectetur nesciunt ipsum ex natus magnam quis eum saepe.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae iusto ullam debitis inventore optio deleniti, quaerat nihil recusandae? Modi, tenetur laudantium commodi vitae ullam ducimus cupiditate voluptate ex illo dolorum.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed nesciunt iure odio optio eveniet labore quasi corporis, quisquam aliquid aspernatur ipsam, blanditiis laboriosam deleniti, nam qui temporibus? Adipisci, voluptate cumque.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis labore laudantium repellat amet nesciunt, aliquid iste aperiam, architecto obcaecati rerum, aut quod autem ut repellendus eos possimus exercitationem nobis officiis iusto dicta. Natus animi repudiandae dolores pariatur, consectetur facilis omnis quisquam a nisi aspernatur nesciunt voluptatibus laboriosam neque molestias praesentium.
+            </p>
+            <div class="comment-box">
+                <h3>Leave a Comment</h3>
+
+            <form class="comment-form">
+                <input type="text" placeholder="Enter Name" /><br>
+                <input type="email" placeholder="Enter Email" />
+                <textarea cols="30" rows="10" placeholder="Your Comment"></textarea>
+                <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+            </form>
+            </div>
+
+
+
+
+
+        </div>
+    <div class="blog-col-right">
+        <h3>Post Categories</h3>
+        <div>
+            <span>Business Analytoics</span>
+            <span>21</span>
+        </div>
+        <div>
+            <span>Data Science</span>
+            <span>28</span>
+        </div>
+        <div>
+            <span>Machine Learining</span>
+            <span>15</span>
+        </div>
+        <div>
+            <span>Computer Science</span>
+            <span>34</span>
+        </div>
+    </div>
+    </div>
+</section>
+
+
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa qui
+            s vero autem velit tempore. Porro minus<br> corporis vero laboriosam.
+            Earum impedit ipsa sequi. Aliquid, corrupti.</p>
+            <div class="icons">
+              <i class="fa fa-facebook"></i>
+              <i class="fa fa-twitter"></i>
+              <i class="fa fa-instagram"></i>
+              <i class="fa fa-linkedIn"></i>
+
+            </div>
+    </section>
+    <script type="text/javascript">
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu(){
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu(){
+        navLinks.style.right = "-1000px";
+      }
+    </script>
+</body>
+</html>

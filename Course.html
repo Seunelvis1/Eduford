@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/b29fce6b9e.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <section class="sub-header-courses">
+
+      <nav>
+          <a href="index.html"><img src="eduford_img/logo.png" /></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onClick="hideMenu()"></i>
+          <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="About.html">ABOUT</a></li>
+              <li><a href="Course.html">COURSE</a></li>
+              <li><a href="Blog.html" target="_blank">BLOG</a></li>
+              <li><a href="Contact.html">CONTACT</a></li>
+
+          </ul>
+
+      </div>
+      <i class="fa fa-bars " onclick="showMenu()"></i>
+
+      </nav>
+
+        <h1>Our Courses</h1>
+
+
+    </section>
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, consectetur.</p>
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum sequi nostrum ipsa excepturi iste quis.</p>
+         </div><div class="course-col">
+            <h3>Degree</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum sequi nostrum ipsa excepturi iste quis.</p>
+         </div>
+         <div class="course-col">
+            <h3>Post Graduate Courses</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum sequi nostrum ipsa excepturi iste quis.</p>
+         </div>
+    </div>
+
+
+    </section>
+
+    <section class="facilities">
+        <h1>Our facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="eduford_img/library.png" alt="">
+            <h3>World Class Library</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit numquam quod molestiae illum ex repudiandae quidem quam voluptatibus, delectus natus.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="eduford_img/basketball.png" alt="">
+            <h3>Largest Playground</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit numquam quod molestiae illum ex repudiandae quidem quam voluptatibus, delectus natus.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="eduford_img/cafeteria.png" alt="">
+            <h3>Tasty and Healthy Food</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit numquam quod molestiae illum ex repudiandae quidem quam voluptatibus, delectus natus.</p>
+        </div>
+    </div>
+
+      </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa qui
+            s vero autem velit tempore. Porro minus<br> corporis vero laboriosam.
+            Earum impedit ipsa sequi. Aliquid, corrupti.</p>
+            <div class="icons">
+              <i class="fa fa-facebook"></i>
+              <i class="fa fa-twitter"></i>
+              <i class="fa fa-instagram"></i>
+              <i class="fa fa-linkedIn"></i>
+
+            </div>
+    </section>
+    <script type="text/javascript">
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu(){
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu(){
+        navLinks.style.right = "-1000px";
+      }
+    </script>
+</body>
+</html>
